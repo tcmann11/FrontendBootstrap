@@ -1161,6 +1161,9 @@ tbody td:last-child, thead th:last-child {
     padding: 3em 3em 1em;
     margin-top: 3em;
 }
+.contact-top1 p {
+    color: #002147; 
+}
 .contact-grid1 input[type="submit"] {
     font-size: 1.1em;
     outline: none;
