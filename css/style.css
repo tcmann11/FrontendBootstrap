@@ -898,14 +898,21 @@ span.grid-w3l-ser {
     margin-top: 4em;
 }
 .team-w3l {
-    background:-webkit-linear-gradient(#002147,rgba(0, 33, 71, 0.69));
-    background:-moz-linear-gradient(#002147,rgba(0, 33, 71, 0.69));
-    background:-ms-linear-gradient(#002147,rgba(0, 33, 71, 0.69));
-    background: linear-gradient(#002147,rgba(0, 33, 71, 0.69));
+    background: #FFF;
+
 }
 .team-w3l h3.w3l-title {
-    color: #fff;
+    color: #000000;
 }
+
+.boxed {
+    border: 2px;
+    border-color: FFB71C;
+    width: 100%;
+    height: 400px;
+    background: #EEECE9;
+}
+
 .about_img {
     position: relative;
     overflow: hidden;
@@ -924,7 +931,7 @@ span.grid-w3l-ser {
     opacity: 1;
     width: 100%;
     color: #000;
-    background: #fff;
+    background: #FFB71C;
     -ms-transform: translateY(0%);
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
@@ -975,10 +982,11 @@ span.grid-w3l-ser {
     display:inline-block;
     margin:0 2px;
     overflow:hidden;
+    text-align: center;
 }
 .fb_icons2 li a{
-    width: 32px;
-    height: 32px;
+    width: 300px;
+    height: 80px;
     display: inline-block;
     border: 1px solid #ffb71c;
     line-height: 2;
@@ -987,6 +995,32 @@ span.grid-w3l-ser {
 .fb_icons2 li a:hover{
     transform:rotateZ(360deg);
     border-radius:100%;
+}
+
+.table-tutor-select-subjects {
+     position: fixed;
+     left: 0px;
+     width: 200px;
+     padding: 10px;
+     border: 2px;
+}
+   
+table, td, th {
+     padding: 7px;
+}
+   
+table#tutor-postings {
+     width: 70%; 
+     height: 10em;
+     background-color: #f1f1c1;
+     text-align: center;
+}
+  
+table#my-tutors {
+     width: 70%; 
+     height: 10em;
+     background-color: #f1f1c1;
+     text-align: center;
 }
 /*-- //team --*/ 
 /*-- Gallery Section --*/
