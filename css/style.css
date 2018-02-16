@@ -2358,6 +2358,11 @@ tbody td:last-child, thead th:last-child {
     .w3layouts_copy_right p {
         letter-spacing: 1px;
     }
+<<<<<<< HEAD
+}
+
+/*--//responsive--*/
+=======
 }
 /*--//responsive--*/
 .modal {
@@ -2438,3 +2443,4 @@ tbody td:last-child, thead th:last-child {
     from {opacity: 0} 
     to {opacity: 1}
 }
+>>>>>>> 8404547e2f5a22aac38d4f9ca278e4049eda92d8
