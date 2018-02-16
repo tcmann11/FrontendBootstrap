@@ -223,12 +223,12 @@ ul.agile_forms li{
     opacity: 1;
 }
 .modal-header {
-        border-bottom: none!important;
+    border-bottom: none!important;
 }
 .modal-body p {
     color: #383535;
     text-align: left;
-        padding: 2em 1em 1em;
+    padding: 2em 1em 1em;
     margin: 0 !important;
     line-height: 2em;
 }
@@ -427,18 +427,18 @@ li.agileits-main i {
 #video,#video1,#video2,#video3,#video4,#video5,#video5,#video7,#video8  {
   position: relative;
   background: #000;
-     width: 100%;
-    margin:0px auto;
+  width: 100%;
+  margin:0px auto;
 }
 
 #video img,
 #video iframe,#video1 img,
 #video1 iframe
- { display: block;width:100%; }
+{ display: block;width:100%; }
 
 #play {
     position: absolute;
-       top:47%;
+    top:47%;
     left: 44%;
     width:64px;
     height:64px;
@@ -448,15 +448,15 @@ li.agileits-main i {
     z-index: 9;
 }
 #play6 {
-     position: absolute;
-       top: 30%;
-    left: 44%;
-    width:64px;
-    height:64px;
-    cursor: pointer;
-    background: url('../images/play-button.png') no-repeat 0px 0px;
-    background-size: auto, cover;
-    z-index: 9;
+   position: absolute;
+   top: 30%;
+   left: 44%;
+   width:64px;
+   height:64px;
+   cursor: pointer;
+   background: url('../images/play-button.png') no-repeat 0px 0px;
+   background-size: auto, cover;
+   z-index: 9;
 }
 .video_agile_player {
     padding: 0;
@@ -467,12 +467,12 @@ li.agileits-main i {
     text-align: center;
 }
 .signin-form h3,h3.agileinfo_sign  {
-       font-size: 1.5em;
-    color: #212121;
-    font-weight: 700;
-    margin: 1em 0 0.8em 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+ font-size: 1.5em;
+ color: #212121;
+ font-weight: 700;
+ margin: 1em 0 0.8em 0;
+ text-transform: uppercase;
+ letter-spacing: 1px;
 }
 h3.agileinfo_sign  {
     text-align:center;
@@ -507,8 +507,8 @@ h3.agileinfo_sign  {
     display: block;
 }
 .signin-form input[type="password"] {
-     background: none;
-    display: block;
+   background: none;
+   display: block;
 }
 .signin-form textarea {
     min-height:100px;
@@ -608,7 +608,7 @@ h3.agileinfo_sign  {
     width: 100%;
 }
 .login-main input[type="text"]{
-     width: 100%;
+   width: 100%;
 }
 .newsletter input[type="email"]{
     width:77%;
@@ -998,17 +998,17 @@ span.grid-w3l-ser {
   font-weight: 300;
 }
 .gallery-section h3{
-   margin: 0;
-  color: #ffffff;
-  font-size: 36px;
-  font-weight: 500;
-  letter-spacing: 18px;
+ margin: 0;
+ color: #ffffff;
+ font-size: 36px;
+ font-weight: 500;
+ letter-spacing: 18px;
 }
 .gallery-grid {
   padding: 0;
 }
 .gallery1 {
-position:relative;
+    position:relative;
 }
 .gallery1 .textbox {
     width: 100%;
@@ -1025,13 +1025,13 @@ position:relative;
     transform: scale(1);
 }
 .gallery-grid img{
-        width:100%;
+    width:100%;
 }
 
 .textbox {
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
-text-align:center;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    text-align:center;
 }
 .textbox h4 {
     font-size: 2em;
@@ -1042,10 +1042,10 @@ text-align:center;
     letter-spacing: 5px;
 }
 .textbox p {
-     font-size: 26px !important;
-    color: #fff;
-    margin: 6px 0 0 0!important;
-    padding: 3px 0;
+   font-size: 26px !important;
+   color: #fff;
+   margin: 6px 0 0 0!important;
+   padding: 3px 0;
 }
 .gallery-grids {
   margin-top: 50px;
@@ -1100,7 +1100,7 @@ text-align:center;
     border-spacing: 0;
     border: 2px solid black; 
     width: 70%;
-    }
+}
 
 .admin-page tr:after {
     content: ' ';
@@ -1184,7 +1184,7 @@ tbody td:last-child, thead th:last-child {
 }
 .contact-grid1 input[type="submit"]:hover{
     background:#09294e;
-     -webkit-transition: .5s all;
+    -webkit-transition: .5s all;
     -moz-transition: .5s all;
     -o-transition: .5s all;
     -ms-transition: .5s all;
@@ -2323,6 +2323,6 @@ tbody td:last-child, thead th:last-child {
     }
     .w3layouts_copy_right p {
         letter-spacing: 1px;
-}
+    }
 }
 /*--//responsive--*/
